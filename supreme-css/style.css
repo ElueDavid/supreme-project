@@ -47,7 +47,7 @@ nav {
     padding: 0 50px;
     box-shadow: 0 0 40px -30px var(--black);
     gap: 20%;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 10000;
 }
@@ -152,7 +152,7 @@ a:hover {
 header {
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 50px;
+    padding: 150px 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -324,9 +324,9 @@ main {
 
 .person-img {
     width: 40px;
-    height: fit-content;
+    height: 40px;
     max-width: 40px;
-    max-height: fit-content;
+    max-height: 40px;
     border-radius: 50%;
 }
 
@@ -496,7 +496,7 @@ footer p {
     }
 
     header {
-        padding: 100px  20px;
+        padding: 150px  20px;
     }
 
     .header-content h1 {
@@ -602,7 +602,7 @@ footer p {
 
     header {
         flex-direction: column;
-        padding: 40px 0;
+        padding: 120px 0;
     }
 
     .header-content {
