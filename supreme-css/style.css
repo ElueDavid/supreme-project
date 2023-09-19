@@ -331,6 +331,44 @@ main {
 }
 
 
+.fa-arrow-right {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    z-index: 1000000;
+    animation-name: right;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes right {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(10%);
+    }
+}
+
+.fa-arrow-left {
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    z-index: 1000000;
+    animation-name: left;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
 
 
 
